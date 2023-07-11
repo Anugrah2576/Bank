@@ -1,0 +1,58 @@
+
+  
+      <div class="container-fluid h-custom">
+        <h1 class="text-center">{{text}}</h1>
+        <div class="row d-flex justify-content-center align-items-center p-3">
+            <div class="col-md-9 col-lg-6 col-xl-5">
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+              
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="https://i.postimg.cc/PJRqL4Hz/ps.png" class="d-block w-100 " height="528px" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="https://i.postimg.cc/C5NQJP5k/ps4.png" class="d-block w-100" height="528px" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="https://i.postimg.cc/3xPDf3PC/ps3.png" class="d-block w-100"  height="528px" alt="...">
+                  </div>
+                </div>
+               
+              </div>
+          </div>
+          <div class="col-md-8 col-lg-6 col-xl-4 offset-xl-1">
+            <form>
+              <div class="d-flex flex-row align-items-center justify-content-center">
+                <h2 class="text-center">Log In </h2>
+               
+              </div>
+    
+      
+    
+             
+              <div class="form-outline mb-3">
+                <input type="text" id="user" name="username" class="form-control form-control-lg"
+                  [placeholder]="ptext" />
+              
+              </div>
+    
+              <!-- Password input -->
+              <div class="form-outline mb-3">
+                <input type="password" id="pass" name="password" class="form-control form-control-lg"
+                  placeholder="Enter password" />
+               
+              </div>
+    
+              
+    
+              <div class="text-center text-lg-start mt-4 pt-2">
+                <button (click)="login()" type="button" class="btn btn-primary btn-lg"
+                  style="padding-left: 2.5rem; padding-right: 2.5rem;">Login</button>
+                <p class="small fw-bold mt-2 pt-1 mb-0">Don't have an account? <a href="#!"
+                    class="link-danger">Register</a></p>
+              </div>
+    
+            </form>
+          </div>
+        </div>
+      </div>
